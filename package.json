@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/checkbox": "^0.5.16",
     "@reduxjs/toolkit": "^1.9.5",
     "expo": "~49.0.8",
     "expo-status-bar": "~1.6.0",

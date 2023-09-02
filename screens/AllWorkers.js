@@ -20,7 +20,7 @@ export const AllWorkers = () => {
   }, [dispatch]);
   return (
     <>
-      <Worker company={workers} loading={loading} />
+     workers
     </>
   );
 };
