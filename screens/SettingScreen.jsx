@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { BsCalendar2Plus, BsTrash3 } from "react-icons/bs";
 import {
   getWeekConfigurate,
   putConfigurateSchedule,
 } from "../../future/action/fetchManager";
 import { useDispatch, useSelector } from "react-redux";
 import { weekConfigurate } from "../../future/redux/managerSlice";
-import { dayWeek } from "../../unit/variables";
+// import { dayWeek } from "../../unit/variables";
 
-export const Company = () => {
+export const SettingScreen = () => {
   const dispatch = useDispatch();
   const { configurate, loading, checkDay } = useSelector(
     (state) => state.manager
@@ -70,7 +69,7 @@ export const Company = () => {
   }, [dispatch]);
   return (
     <>
-     Company
+     Setting Screen
     </>
   );
 };
