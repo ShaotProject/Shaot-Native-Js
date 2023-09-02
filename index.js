@@ -1,12 +1,11 @@
 import React from "react";
+import "./index.css";
+import App from "./App";
 import { Provider } from "react-redux";
 import { store } from "./future/store/store";
-import { Start } from "./screens/Start";
 
-export default function App() {
-  return (
+export const index = ()=>(
     <Provider store={store}>
-      <Start />
+      <App />
     </Provider>
-  );
-}
+);
